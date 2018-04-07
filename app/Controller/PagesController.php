@@ -58,7 +58,7 @@ class PagesController extends AppController {
 		$page = $subpage = $title_for_layout = null;
 
 		if (!empty($path[0])) {
-		    // 空の場合
+		    // 空以外の場合、設定値を保持
 			$page = $path[0];
 		}
 		if (!empty($path[1])) {
