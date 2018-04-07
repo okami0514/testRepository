@@ -58,6 +58,7 @@ class PagesController extends AppController {
 		$page = $subpage = $title_for_layout = null;
 
 		if (!empty($path[0])) {
+		    // 空の場合
 			$page = $path[0];
 		}
 		if (!empty($path[1])) {
